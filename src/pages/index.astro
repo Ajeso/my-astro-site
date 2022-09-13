@@ -1,16 +1,22 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import profile from "../images/profile.jpeg";
+import profile from "../images/profile.webp";
 ---
 
 <Layout title="Monicah Ajeso">
-  <main class="w-11/12 mx-auto sm:w-4/5">
-    <div class="flex flex-col md:flex-row lg:py-20 lg:px-20">
-      <div class="md:w-2/5 h-auto">
-        <img class="h-full" src={profile} alt="profile" />
+  <main class="w-full mx-auto">
+    <div class="flex flex-col p-4 lg:flex-row lg:p-28">
+      <div class="basis-2/4 h-auto">
+        <img
+          class="h-full w-full"
+          src={profile}
+          alt="Monicah's Profile Picture"
+        />
       </div>
 
-      <div class="bg-gray-800 md:w-3/5 md:p-20 p-4">
+      <div
+        class="bg-gray-800 basis-2/4 md:p-11 flex flex-col justify-center px-2"
+      >
         <h5 class="py-8 text-5xl font-bold text-white">
           Ajeso Monicah. &#x1F44B
         </h5>
@@ -21,7 +27,7 @@ import profile from "../images/profile.jpeg";
           twice &#x1F609;.
         </p>
 
-        <div class="grid grid-cols-4 mx-auto w-3/4 py-3">
+        <div class="grid grid-cols-4 mx-auto w-3/4 py-3 pt-11">
           <a href="https://github.com/Ajeso">
             <svg
               class="w-9 h-10 fill-blue-300"
