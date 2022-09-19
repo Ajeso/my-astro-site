@@ -1,5 +1,4 @@
 ## Quick-Links Astro Site
----
  I created this card that contains my social links and little bio about me and what I do, using Astro.  
  Astro is an all-in-one web framework for building fast, content-focused websites.  
  Visit [Astro](https://astro.build/) today!
@@ -10,7 +9,6 @@
   With Tailwind intergration you don't need to create a css file, as for JavaScrpit you get to write your code on the same page as the HTML, isn't that cool!!
  
  ## Installation
- `- - -`
  To Install Astro you use the package manager npm, you can run this on the terminal and VsCode terminal
  ```bash
   npm create astro@latest 
