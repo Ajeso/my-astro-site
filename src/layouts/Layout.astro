@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import ogImage from "../images/monicah-ajeso-links-og-image.png";
 
 const { title } = Astro.props;
 ---
@@ -29,7 +30,7 @@ const { title } = Astro.props;
       property="og:description"
       content="Quick links about me, Monicah Ajeso, Frontend Developer."
     />
-    <meta property="og:image" content="/monicah-aseso-links-og-image.png" />
+    <meta property="og:image" content={ogImage} />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
@@ -39,10 +40,7 @@ const { title } = Astro.props;
       property="twitter:description"
       content="Quick links about me, Monicah Ajeso, Frontend Developer."
     />
-    <meta
-      property="twitter:image"
-      content="/monicah-aseso-links-og-image.png"
-    />
+    <meta property="twitter:image" content={ogImage} />
   </head>
   <body
     class="bg-gradient-to-r from-blue-300 to-violet-400 flex flex-col items-center justify-center h-screen"
