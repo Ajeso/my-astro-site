@@ -1,40 +1,44 @@
-## Quick-Links Astro Site
- I created this card that contains my social links and little bio about me and what I do, using Astro.  
- Astro is an all-in-one web framework for building fast, content-focused websites.  
- Visit [Learn more about Astro here!](https://astro.build/) today!
+# Quick Links - Monicah Ajeso
+
+I created this card that contains my social links and little bio about me and what I do, using Astro.  
+Astro is an all-in-one web framework for building fast, content-focused websites.  
+
+Learn more about Astro [here](https://astro.build/)!
  
- ## Installation
- To Install Astro you use the package manager npm, you can run this on the terminal and VsCode terminal
- ```bash
- # create a new project with npm
-npm create astro@latest
 
-  
-# create a new project with pnpm
-pnpm create astro@latest
+## Installation
 
-# create a new project with pnpm
-pnpm create astro@latest
- 
-``` 
-
-There are a couple of interactive questions  that will follow up Including template options.  
-You also get to initialize it as a Git repo during the installing process.  
-What's als amaizing about astro is the intergrations with the most used frameworks like react,Vue,svelte,preact,Tailwind and so many others.  
-
-To add a framework you run the package manager followed by the of the framework.
-This is an example of tailwind
+If you want to use the template for this card, you can clone this repository and run the following command:
 
 ```bash
-# Using NPM
-npx astro add tailwind
+# install the dependencies
+npm install
+```
 
-# Using Yarn
-yarn astro add tailwind
+```bash
+# start the development server
+npm run dev
+```
 
-# Using PNPM
-pnpm astro add tailwind 
-``` 
+When you are ready to deploy your site, run the following command:
 
-# Contribution
+```bash
+# build the project
+npm run build
+```
+
+To Install Astro you use the package manager npm, you can run this on the terminal and VsCode terminal
+ 
+
+```bash
+ # create a new project with npm
+npm create astro@latest
+```
+
+## Contribution
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## Credits
+
+The template for this card is inspired by [this carrd.com demo](https://cb389e106f5915a5.demo.carrd.co/).
